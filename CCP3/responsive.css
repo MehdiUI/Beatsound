@@ -1,220 +1,208 @@
 @media screen and (max-width: 650px) {
+/* LARGEUR 650PX ET HAUTEUR 800PX */
 
-    html,
-    body{width: 100%;
-        height: 100%;
+html, body{width: 100%;
+  height: 100%;
+}
 
-    }
+nav{
+  width: 100%;
+  height: 100px;
+  transition: ease 1s;
+}
 
-    nav{
-        width: 100%;
-        height: 10%;
-        transition: ease 1s;
-    }
+.ancre{
+  display: none;
+}
 
-        .ancre{
-            display: none;
-        }
+.logo{
+  display: flex;
+  width: 30%;
+  position: relative;
+  left: 10px;
+  height: 100px;
+}
 
-        .logo{
-            display: flex;
-            width: 30%;
-            position: relative;
-            left: 10px;
-            
-        }
+.btnav{
+ display: none;
+}
 
-        .btnav{
-            display: none;
-
-        }
-
-        .burger {
-            align-self: center;
-            position: relative;
-            width: 40px;
-            height: 30px;
-            background: transparent;
-            cursor: pointer;
-            display: block;
-            left: 200px;
-        }
+.burger {
+  align-self: center;
+  position: relative;
+  width: 40px;
+  height: 30px;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+  left: 200px;
+}
           
-        .burger input {
-            display: none;
-        }
+.burger input {
+ display: none;
+}
           
-        .burger span {
-            display: block;
-            position: absolute;
-            height: 4px;
-            width: 100%;
-            background: white;
-            border-radius: 9px;
-            opacity: 1;
-            left: 0;
-            transform: rotate(0deg);
-            transition: .25s ease-in-out;
-        }
+.burger span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: white;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
           
-          .burger span:nth-of-type(1) {
-            top: 0px;
-            transform-origin: left center;
-        }
+.burger span:nth-of-type(1) {
+  top: 0px;
+  transform-origin: left center;
+}
           
-          .burger span:nth-of-type(2) {
-            top: 50%;
-            transform: translateY(-50%);
-            transform-origin: left center;
-          }
+.burger span:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: left center;
+}
           
-          .burger span:nth-of-type(3) {
-            top: 100%;
-            transform-origin: left center;
-            transform: translateY(-100%);
-          }
+.burger span:nth-of-type(3) {
+  top: 100%;
+  transform-origin: left center;
+  transform: translateY(-100%);
+}
           
-          .burger input:checked ~ span:nth-of-type(1) {
-            transform: rotate(45deg);
-            top: 0px;
-            left: 5px;
-          }
+.burger input:checked ~ span:nth-of-type(1) {
+  transform: rotate(45deg);
+  top: 0px;
+  left: 5px;
+}
           
-          .burger input:checked ~ span:nth-of-type(2) {
-            width: 0%;
-            opacity: 0;
-          }
+.burger input:checked ~ span:nth-of-type(2) {
+  width: 0%;
+  opacity: 0;
+}
           
-          .burger input:checked ~ span:nth-of-type(3) {
-            transform: rotate(-45deg);
-            top: 28px;
-            left: 5px;
-          }
+.burger input:checked ~ span:nth-of-type(3) {
+  transform: rotate(-45deg);
+  top: 28px;
+  left: 5px;
+}
 
-          .divh1{
-            display: flex;
-            position: relative;
-            bottom: 180px;
-            font-size: 21px;
-            width: 90%;
-           
-          }
+.divh1{
+  display: flex;
+  position: relative;
+  bottom: 180px;
+  font-size: 21px;
+  width: 90%;
+}
 
-          .textbanner{
-            display: flex;
-          position: relative;
-          bottom: 170px;
-          font-size: 16px;
-          width: 400px;
-          
-        }
+.textbanner{
+  display: flex;
+  position: relative;
+  bottom: 170px;
+  font-size: 16px;
+  width: 400px;
+}
 
-        .btnbanner{
-          display: flex;
-          position: relative;
-          bottom:260px;
-          left: 400px;
-          width: 177px;
-          height:50px ;
-          font-size: 16px;
+.btnbanner{
+  display: flex;
+  position: relative;
+  bottom:260px;
+  left: 400px;
+  width: 177px;
+  height:50px ;
+  font-size: 16px;
+}
 
-        }
+#scrollcta{
+ display: none;
+}
 
-        #scrollcta{
-          display: none;
-        }
+.scrollctablack{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom:350px ;        
+  width: 35px ;
+  height: 20px;
+  z-index: 1;
+}
 
-        .scrollctablack{
-          display: flex;
-          justify-content: center;
-          position: relative;
-          bottom:250px ;
-          width: 35px ;
-          height: 20px;
-          z-index: 1;
-        }
+.musicc{
+  top: 100px;
+  height: 1000px;
+}
 
-        .musicc{
-          top: 100px;
-          height: 1000px;
-        }
-
-        #h2music{
-          font-size: 28px;
-        }
+#h2music{
+  font-size: 28px;
+}
         
-      .imgmusic{
-        width: 100%;
-        display: flex;
-        position: relative;
-        flex-direction: row;
-        top: 100px;
-        justify-content: center;
-        align-self: center;
-        }
+.imgmusic{
+width: 100%;
+display: flex;
+position: relative;
+flex-direction: row;
+top: 100px;
+justify-content: center;
+align-self: center;
+}
 
-        #imgmusic1{
-          width: 200px;
-          height: 200px;
-          display: flex;
-          position: relative;
-          z-index: 1;
-          object-fit: cover;  
-      }
+#imgmusic1{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  object-fit: cover;  
+}
 
-      #imgmusic2{
-        width: 200px;
-        height: 200px;
-          display: flex;
-          position: relative;
-          bottom: 0px;
-          right: 0px;
-          object-fit: cover;
-      }
+#imgmusic2{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+  object-fit: cover;
+}
 
-      #imgmusic3{
-          width: 200px;
-          height: 200px;
-          display: flex;
-          position: relative;
-          bottom: 0px;
-          right: 0px;
-      
-      }
+#imgmusic3{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+}
 
-      .listeplaylist{
-        top: 200px;
-        left:0;
-        bottom: 0;
-        justify-content: center;
-        align-self: center;
-        font-size: 12px;
-      }
+.listeplaylist{
+  top: 200px;
+  left:0;
+  bottom: 0;
+  justify-content: center;
+  align-self: center;
+  font-size: 12px;
+}
 
-      
-  
+#pl{
+  font-weight: bold;
+  font-size: 21px;
+  list-style-image: url(asset/Rectangle\ 6-bis.png);
+}
 
-      #pl{
-        font-weight: bold;
-        font-size: 21px;
-        list-style-image: url(asset/Rectangle\ 6-bis.png);
+#trend{
+  font-weight: bold;
+  font-size: 21px;
+  list-style-image: url(asset/Rectangle\ 5-bis.png);
+}
 
-    }
-    #trend{
-        font-weight: bold;
-        font-size: 21px;
-        list-style-image: url(asset/Rectangle\ 5-bis.png);
-    }
-    #dc{
-        font-weight: bold;
-        font-size: 21px;
-        list-style-image: url(asset/Rectangle\ 4-bis.png);
-    }
+#dc{
+  font-weight: bold;
+  font-size: 21px;
+  list-style-image: url(asset/Rectangle\ 4-bis.png);
+}
 
-    ::marker{
-      width: 15px;
-      height: 15px;
-  }
 .nos-artistes{
   flex-direction: column;
   width: 100%;
@@ -224,21 +212,19 @@
   margin-bottom: 0;
   bottom: 700px;
   height: 500px;
-  
-  }
+}
 
-  .titlleartist{
-    color: black;
-    font-family: inter ;
-    font-weight: bold;
-    font-size: 30px;
-    position: relative;
-    left: 10px;
-    margin-bottom: 30px;
-    width: 40%;
-    text-align: center;
-    align-self: center;
-    
+.titlleartist{
+  color: black;
+  font-family: inter ;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  left: 10px;
+  margin-bottom: 30px;
+  width: 40%;
+  text-align: center;
+  align-self: center;  
 }
 
 .titleautreart{
@@ -261,7 +247,6 @@
   justify-content: center;
   align-items: center;
   left: 100px;
-
 }
 
 
@@ -286,6 +271,7 @@
  z-index: -1;
   
 }
+
 p{
   font-size: 14px;
   text-align: justify;
@@ -317,7 +303,6 @@ p{
   gap: 30px;
   margin-bottom: 50px;
   flex-direction: column;
-
 }
 
 .acces{
@@ -327,16 +312,17 @@ p{
   justify-content: center;
   align-items: center;
 }
+
 .accesimg{
   position: relative;
   left: 10px;
 }
+
 .accessh3{
   font-family: inter;
   margin-bottom: 20px;
 
 }
-
 
 .audio{
   display: flex;
@@ -349,7 +335,6 @@ p{
 .audio-HDh3{
   font-family: inter;
   margin-bottom: 20px;
-
 }
 
 .playlistgrid{
@@ -363,7 +348,6 @@ p{
 .playlisth3{
   font-family: inter;
   margin-bottom: 20px;
-
 }
 
 
@@ -375,8 +359,8 @@ p{
   gap: 30px;
   margin-bottom: 50px;
   flex-direction: column;
-
 }
+
 .podcast{
   display: flex;
   flex-direction: column;
@@ -388,7 +372,6 @@ p{
 .podcasth3{
   font-family: inter;
   margin-bottom: 20px;
-
 }
 
 .hors-ligne{
@@ -402,7 +385,6 @@ p{
 .horsligneh3{
   font-family: inter;
   margin-bottom: 20px;
-
 }
 
 .suggestion{
@@ -416,11 +398,10 @@ p{
 .suggestions{
   font-family: inter;
   margin-bottom: 20px;
-  
 }
 
-.tarifs{
-    
+
+.tarifs{  
   width: 100%;
   height: 1000px;
   position: relative;
@@ -543,6 +524,7 @@ p{
   background: linear-gradient(white, white) padding-box,
   linear-gradient(to bottom, rgba(25,108,226,1) 35%, rgba(1,251,165,1) 75%) border-box;
 }
+
 .partenaires{
   width: 100%;
   height: 780px;
@@ -553,6 +535,7 @@ p{
   flex-direction: column;
   text-align: center;
 }
+
 .partenaireh2{
   font-family: inter;
   font-size: 30px;
@@ -560,6 +543,7 @@ p{
   margin-bottom: 60px;
   margin-top: 50px;
 }
+
 .logopartenaires{
   display: flex;
   flex-direction: column;
@@ -573,7 +557,6 @@ footer{
   position: relative;
   top: 1500px;
   height: 832px;
-  
 }
 
 #bgfooter{
@@ -600,7 +583,6 @@ footer{
 }
 
 .pnews{
-  
   font-size: 14px;
   width: 80%;
   align-self: center;
@@ -658,17 +640,11 @@ input[type='password']{
   font-family: inter;
   margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.5);
- 
 }
-
-
 
 input:focus{  
   outline: none;
 }
-
-
-
 
 .titreboxnom{
   display: flex;
@@ -692,8 +668,7 @@ input:focus{
   width: 300px;
   position: relative;
   right: 0px;
-  color: white;
-  
+  color: white; 
 }
 
 .btnews{
@@ -775,7 +750,6 @@ input:focus{
 .logonews{
   width: 300px;
   height: 107px;
-
 }
 
 .imgrs{
@@ -784,6 +758,8 @@ input:focus{
   display: flex;
   flex-direction: column;
 }
+
+
 }
 
 

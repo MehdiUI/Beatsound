@@ -1,3 +1,6 @@
+
+// carrousel
+
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
 arrowIcons = document.querySelectorAll(".wrapper i");
@@ -90,6 +93,6 @@ ScrollReveal({
   ScrollReveal().reveal('.media-icons i', { delay: 500, origin: 'bottom', interval: 200 });
   ScrollReveal().reveal('.carousel, .image', { delay: 500, origin: 'top' });
   ScrollReveal().reveal('', { delay: 500, origin: 'top', interval: 200 });
-  ScrollReveal().reveal('.btnbanner, .autre-artistes, .button', { delay: 900, origin: 'top', interval: 200 });
+  ScrollReveal().reveal('.btnbanner, .autre-artistes,.scrollcta,.scrollctablack, .button', { delay: 900, origin: 'top', interval: 200 });
 
 

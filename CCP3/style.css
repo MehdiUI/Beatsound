@@ -13,6 +13,8 @@ html, body{
     height: 100%;
 }
 
+
+/* navbar */
 nav{
     text-align: center;
     justify-content: center;
@@ -26,8 +28,6 @@ nav{
     align-items: flex-start;
     backdrop-filter: blur(30px) brightness(100%);
     background-color: rgba(33, 16, 16, 0.5);
-
-    
 }
 
 
@@ -47,6 +47,7 @@ nav{
     position: relative;
 }
 
+/* hover ancre navbar */
 .servicesnav {
     color: #e1e1e1;
     font-family: inherit;
@@ -87,7 +88,9 @@ nav{
     transition-property: width, left;
   }
 
+
   
+
 a{
     color: white;
 }
@@ -99,6 +102,7 @@ a{
     width: 20%; 
     cursor: pointer;
 }
+
 #logoid{display: flex;
     align-self: center;
     width: 80%;
@@ -111,7 +115,7 @@ a{
 }
 
 
- .btnav {
+.btnav {
     position: relative;
     border:  transparent;
     border-radius: 63px;
@@ -145,8 +149,9 @@ a{
        linear-gradient(#fff 0 0);
     -webkit-mask-composite: clear;
             mask-composite: clear; 
-  } 
+} 
 
+/* divbtnav */
 .gradient{
     width: 272px;
     height: 77px;
@@ -244,6 +249,7 @@ main{
     
 }
 
+/* première catégorie */
 .musicc{
     z-index: 0;
     display: flex;
@@ -328,12 +334,12 @@ ul li:first-child:before {
     background-repeat: no-repeat;
     margin-left: -22px;
     display: none;
-  }
+}
+
 #pl{
     font-weight: bold;
     font-size: 40px;
-    list-style-image: url(asset/Rectangle\ 6.png);
-   
+    list-style-image: url(asset/Rectangle\ 6.png);  
 }
 
 
@@ -342,6 +348,7 @@ ul li:first-child:before {
     font-size: 40px;
     list-style-image: url(asset/Rectangle\ 5.png);
 }
+
 #dc{
     font-weight: bold;
     font-size: 40px;
@@ -396,18 +403,18 @@ ul li:first-child:before {
     justify-content: center;
     align-items: center;
     left: 1000px;
-
 }
 
 
 .carousel{
     height: 600px;
 }
+
 .wrapper{
     display: flex;
     max-width: 100%;
     position: relative;
-  }
+}
 
 
 .wrapper i{
@@ -424,70 +431,52 @@ ul li:first-child:before {
     border-radius: 50%;
     transform: translateY(-50%);
     transition: transform 0.1s linear;
-  
-  }
-  .wrapper i:active{
+}
+
+.wrapper i:active{
     transform: translateY(-50%) scale(0.9);
-  }
-  .wrapper i:hover{
+}
+
+.wrapper i:hover{
     background: #f2f2f2;
-  }
-  .wrapper i:first-child{
+}
+
+.wrapper i:first-child{
     left: 22px;
     z-index: 1;
     
-  }
-  .wrapper i:last-child{
-    right: 22px;
-  }
+}
 
-  .wrapper .carousel{
+.wrapper i:last-child{
+    right: 22px;
+}
+
+.wrapper .carousel{
     font-size: 0px;
     cursor: pointer;
     overflow: hidden;
     white-space: nowrap;
     scroll-behavior: smooth;
-  }
-  .carousel.dragging{
+}
+
+.carousel.dragging{
     cursor: grab;
     scroll-behavior: auto;
-  }
-  .carousel.dragging img{
-    pointer-events: none;
-  }
-  .carousel img{
-    height: 600px;
+}
 
+.carousel.dragging img{
+    pointer-events: none;
+}
+
+.carousel img{
+    height: 600px;
     user-select: none;
     margin-left: 14px;
     width: 433px;
-  }
-  .carousel img:first-child{
+}
+
+.carousel img:first-child{
     margin-left: 10px;
-  }
-
-  
-
-
-.artiste2{
-    width: 100%;
-    height: 100%;
-}
-.artiste3{
-    width: 100%;
-    height: 100%;
-}
-.artiste4{
-    width: 100%;
-    height: 100%;
-}
-.artiste5{
-    width: 100%;
-    height: 100%;
-}
-.artiste6{
-    width: 100%;
-    height: 100%;
 }
 
 .atouts2{
@@ -513,7 +502,6 @@ ul li:first-child:before {
     justify-content: center;
     gap: 10%;
     margin-bottom: 50px;
-
 }
 
 .grid2{
@@ -521,17 +509,14 @@ ul li:first-child:before {
     align-items: center;
     justify-content: center;
     gap: 10%;
-
 }
 
 .acces{
     width: 20%;
-
 }
 .accessh3{
     font-family: inter;
     margin-bottom: 20px;
-
 }
 
 p{
@@ -546,7 +531,6 @@ p{
 .audio-HDh3{
     font-family: inter;
     margin-bottom: 20px;
-
 }
 
 .playlistgrid{
@@ -556,7 +540,6 @@ p{
 .playlisth3{
     font-family: inter;
     margin-bottom: 20px;
-
 }
 
 .podcast{
@@ -566,7 +549,6 @@ p{
 .podcasth3{
     font-family: inter;
     margin-bottom: 20px;
-
 }
 
 .hors-ligne{
@@ -576,7 +558,6 @@ p{
 .horsligneh3{
     font-family: inter;
     margin-bottom: 20px;
-
 }
 
 .suggestion{
@@ -586,11 +567,9 @@ p{
 .suggestions{
     font-family: inter;
     margin-bottom: 20px;
-    
 }
 
-.tarifs{
-    
+.tarifs{ 
     width: 100%;
     height: 1000px;
     position: relative;
@@ -617,8 +596,6 @@ p{
     justify-content: center;
     flex-direction: row;
     align-self: center;
-
-
 }
 .cardtarif1{
     font-family: inter;
@@ -645,14 +622,12 @@ p{
 
 #submois{
     font-size: 48px;
-
 }
 .avantageabo1{
     text-align: center;
     font-size: 36px;
     font-weight: normal;
     margin-top: 50px;
-
 }
 
 .btncard0{
@@ -684,8 +659,7 @@ p{
     background: linear-gradient(207deg, rgba(25,108,226,1) 35%, rgba(1,251,165,1) 75%);
     border-radius: 36px;
     text-align:center;
-    box-shadow: 10px 5px 5px  rgba(0, 0, 0, 0.07);
-    
+    box-shadow: 10px 5px 5px  rgba(0, 0, 0, 0.07); 
 }
 
 .btncard2{
@@ -743,21 +717,26 @@ p{
     margin-bottom: 60px;
     margin-top: 50px;
 }
+
 .logopartenaires{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 76px;
 }
+
 #partimg1{
     opacity: 50%;
 }
+
 #partimg2{
     opacity: 50%;
 }
+
 #partimg3{
     opacity: 50%;
 }
+
 #partimg4{
     opacity: 50%;
 }
@@ -774,11 +753,14 @@ footer{
 #bgfooter{
     width: 100%;
     height: 832px;
+    object-fit: cover;
 }
+
 .newsletter{
     width: 100%;
     height: 832px ;
 }
+
 .newsback{
     width: 100%;
     object-fit: cover;
@@ -825,6 +807,7 @@ footer{
     margin-bottom: 40px;
     margin-top: 10px;  
 }
+
 .titleinscription{
     position: relative;
     top: 30px;
@@ -849,8 +832,6 @@ footer{
     flex-direction: column;
     position: relative;
     align-items: center;
-  
-    
 }
 
 input[type='email']{
@@ -863,7 +844,6 @@ input[type='email']{
     font-size: 16px;
     font-family: inter;
     background-color: rgba(255, 255, 255, 0.5);
-    
 }
 
 input[type='password']{
@@ -877,7 +857,6 @@ input[type='password']{
     font-family: inter;
     margin-top: 20px;
     background-color: rgba(255, 255, 255, 0.5);
-   
 }
 
 
@@ -912,7 +891,6 @@ input:focus{
     position: relative;
     left: 15px;
     color: white;
-    
 }
 
 .groupeinput{
@@ -921,21 +899,20 @@ input:focus{
     width: 100%;
     height: 75%;
     align-items: center;
-    
 }
-.btnews{
-display: flex;
-flex-direction: row;
-margin-top: 100px;
-gap: 60px;
 
+.btnews{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    gap: 60px;
 }
 
 .site{
     display: flex;
     position: relative;
-    width: 272px;
-    height: 77px;
+    width: 278px;
+    height: 83px;
     font-size: 21px;
     color: white;
     border: 3px solid transparent;
@@ -947,7 +924,7 @@ gap: 60px;
 }
 
 .site::before{
- 
+    
     content: "";
     position: absolute;
     inset: 0;
@@ -955,7 +932,6 @@ gap: 60px;
     border-radius: inherit; 
     padding: 3px; 
     background: linear-gradient(180deg, rgba(25,108,226) 35%, rgba(1,251,165) 75%) padding-box;
-    
     -webkit-mask: 
     linear-gradient(#fff 0 0) content-box, 
     linear-gradient(#fff 0 0);
@@ -994,6 +970,7 @@ gap: 60px;
     left: 200px;
     
 }
+
 .rs{
     position: relative;
     display: flex;
@@ -1008,63 +985,7 @@ gap: 60px;
 }
 
 
+
 /* animation apparition */
 
 
-.hidden{
-    opacity: 0;
-    transition: all 1s;
-}
-
-.show{
-    opacity: 1;
-    transition: all 1s;
-}
-  
-  .reveal-loaded .reveal-2 {
-    animation-delay: .5s;
-  }
-  
-  .reveal-loaded .reveal-3 {
-    animation-delay: 1s;
-  }
-  
-  .reveal-loaded .reveal-4 {
-    animation-delay: 2s;
-  }
-  .reveal-loaded .reveal-5 {
-    animation-delay: .5s;
-  }
-  .reveal-loaded .reveal-6 {
-    animation-delay: 2s;
-  }
-  .reveal-loaded .reveal-7 {
-    animation-delay: 2s;
-  }
-  .reveal-loaded .reveal-8 {
-    animation-delay: 2s;
-  }
-  .reveal-loaded .reveal-9 {
-    animation-delay: 2s;
-  }
-  .reveal-loaded .reveal-10 {
-    animation-delay: 2s;
-  }
-
-  
-  @media (prefers-reduced-motion: reduce) {
-    .reveal-loaded  [class*="reveal-"] {
-      animation: none!important;
-    }
-  }
-  
-  @keyframes revealAnimation {
-    0% {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0px);
-    }
-  }
